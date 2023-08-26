@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>sign up & sign in  page</title>
+    <script src="https://kit.fontawesome.com/cdb8cfa397.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+<div class="formbox">
+    <h1 id="title">sign up</h1>
+    <form action="" class="form">
+        <div class="input-group">
+            <div id="namefield" class="input-field">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="name">
+            </div>
+            <div id="emailfield" class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="E-mail">
+            </div>
+            <div id="passwordfield" class="input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password" id="passwordinput">
+                <i id="eye" class ="fa-solid fa-eye"></i>
+            </div>
+            <p>forget password? <a href="#">click here!</a></p>
+        </div>
+       
+    </form>
+    <div class="btn-field">
+        <button type="button" id="signupbtn">sign up</button>
+        <button type="button" id="signinbtn" class="disable">sign in</button>
+    </div>
+        <div class="content">
+            <p>password must contain</p>
+            <ul class="requirment-list"> 
+                <li>       
+                    <i class="fa-solid fa-circle"></i>
+                    <span>8 characters</span>
+                </li>
+                
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>at least 1 numbers</span>
+                </li>
+                
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>at least 1 small letter</span>
+                </li>
+                
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>atleast 1 capital letter</span>
+                </li>
+                
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>special</span>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    </div> 
+    </div>
+</body>
+<script src="/app.js"></script>
+</html>
